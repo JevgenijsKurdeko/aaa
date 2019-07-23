@@ -6,14 +6,14 @@ public class Common {
 
     protected static ChromeDriver driver;
 
-    public void startBrowser2(){
-        String driverpath = "C:/Users/ZhekaSan/IdeaProjects/aaa/src/main/resources/";
+    public void startBrowser(){
+        String driverpath = "C:/Users/ZhekaSan/IdeaProjects/aaa/FinalWork1alv/src/main/resources/";
         System.setProperty("webdriver.chrome.driver", driverpath + "chromedriver.exe");
         driver = new ChromeDriver();
-        driver.get("https://www.janisroze.lv/");
+        driver.get("https://www.1a.lv/");
     }
 
-    public void stopBrowser2(){
+    public void stopBrowser(){
         driver.quit();
     }
 }
