@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="FinalWork1alv" external.linked.project.path="$MODULE_DIR$/../../FinalWork1alv" external.root.project.path="$MODULE_DIR$/../../FinalWork1alv" external.system.id="GRADLE" external.system.module.group="FinalWork1alv" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
-  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../FinalWork1alv" rootProjectPath="$MODULE_DIR$/../../FinalWork1alv" />
+  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="FinalWork1alv" externalSystemModuleVersion="1.0-SNAPSHOT" linkedProjectId="FinalWork1alv" linkedProjectPath="$MODULE_DIR$/../../FinalWork1alv" rootProjectPath="$MODULE_DIR$/../../FinalWork1alv" />
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../FinalWork1alv">
       <excludeFolder url="file://$MODULE_DIR$/../../FinalWork1alv/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../FinalWork1alv/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../FinalWork1alv/out" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

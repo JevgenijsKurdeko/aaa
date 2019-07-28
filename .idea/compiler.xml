@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="aaa.FinalWork1alv.main" target="1.8" />
+      <module name="aaa.FinalWork1alv.test" target="1.8" />
       <module name="FinalWork1alv.main" target="1.8" />
       <module name="FinalWork1alv.test" target="1.8" />
     </bytecodeTargetLevel>
