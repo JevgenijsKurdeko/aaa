@@ -5,6 +5,7 @@ import OneALvTest.Models.Customer;
 import OneALvTest.Models.Product;
 import OneALvTest.Pages.HomePage;
 import OneALvTest.Pages.OrderPage;
+import javafx.beans.binding.BooleanExpression;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -56,7 +57,7 @@ public class OneATest {
         orderPage.goNext();
         orderPage.setPaymentType();
         orderPage.setLastPrice();
-        //assertThat("product.getPrice()").isEqualTo("orderPage.getLastPrice()");
+        //assertThat(product.getPrice()).isEqualTo(orderPage.getLastPrice());
 
 
         try {
@@ -67,6 +68,8 @@ public class OneATest {
 
 
     }
+
+
 
     @After
     public void tearDown() {
