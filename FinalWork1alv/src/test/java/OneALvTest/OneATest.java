@@ -31,14 +31,14 @@ public class OneATest {
     @Test
     public void test() {
 
-       homePage.searchSelect("Monitori");
-       //homePage.selectBrand();
-       //homePage.selectRating();
-        //homePage.selectProduct();
-        //homePage.addAndGoToCart();
-        //homePage.goToLoginAndDelivery();
-        //homePage.setFirstPrice();
-        //product.setPrice(homePage.getFirstPrice());
+        homePage.searchSelect("Monitori");
+        homePage.selectBrand();
+        homePage.selectRating();
+        homePage.selectProduct();
+        homePage.addAndGoToCart();
+        homePage.goToLoginAndDelivery();
+        homePage.setFirstPrice();
+        product.setPrice(homePage.getFirstPrice());
 
         //little pause
 
@@ -48,16 +48,15 @@ public class OneATest {
             e.printStackTrace();
         }
 
-        //orderPage.setFirstLastName(customer.getName(), customer.getSurName());
-        //orderPage.setEmailAndMob(customer.getEmail(), customer.getMobile());
-        //orderPage.setSelectList();
-        //orderPage.setCheckBox();
-        //orderPage.setPlace();
-        //orderPage.goNext();
-        //orderPage.setPaymentType();
-        //orderPage.setLastPrice();
+        orderPage.setFirstLastName(customer.getName(), customer.getSurName());
+        orderPage.setEmailAndMob(customer.getEmail(), customer.getMobile());
+        orderPage.setSelectList();
+        orderPage.setCheckBox();
+        orderPage.setPlace();
+        orderPage.goNext();
+        orderPage.setPaymentType();
+        orderPage.setLastPrice();
         //assertThat("product.getPrice()").isEqualTo("orderPage.getLastPrice()");
-
 
 
         try {
